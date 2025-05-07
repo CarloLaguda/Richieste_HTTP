@@ -1,0 +1,8 @@
+<h2>Basic Request</h2>
+<button type="button" (click)="makeRequest()">Make Request</button>
+<div>
+  @if(loading)
+  {
+    <pre>{{data | json}}</pre>
+  }
+</div>
